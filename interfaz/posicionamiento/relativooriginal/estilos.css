@@ -1,0 +1,31 @@
+#mesaprofesor{
+    height: 80px;
+    width: 200px;
+    border-color: black;
+    background-color: burlywood;
+    border-style: solid;
+    border-radius: 3px;
+    position: relative;
+    
+}
+.mesaizquierda{
+    height: 120px;
+    width: 300px;
+    border-color: rgb(223, 38, 38);
+    background-color: rgb(231, 160, 68);
+    border-style: solid;
+    border-radius: 3px;
+    position: relative;
+
+}
+.mesaderecha{
+    height: 120px;
+    width: 300px;
+    border-color: rgb(38, 50, 223);
+    background-color: rgb(161, 138, 107);
+    border-style: solid;
+    border-radius: 3px;
+    position: relative;
+    
+    
+}
