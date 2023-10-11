@@ -1,0 +1,118 @@
+/*David Pozo Berlinches*/
+/*Ponemos los margenes y rellenos a 0*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1280px;
+    height: 100%;
+    background-image: url("imagenes/fondo1.jpg");
+    background-repeat: no-repeat; /*Para que la imagen no se repita*/
+    background-size: cover; /*Ocupa todo el espacio disponible*/
+    font-family: Helvetica; /*Define una fuente de texto para todo el cuerpo del documento*/
+}
+/*Cabecera*/
+header {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: rgb(8, 53, 53);   
+}
+
+nav {
+    background-image: url("imagenes/margaritas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    list-style: none; /*Elimina los puntos de la lista*/
+}
+
+nav li {
+    display: inline; /*Muestra los elementos de la lista en línea*/
+    margin-right: 20px; /*Añade un espacio entre los elementos del menú*/
+}
+
+nav a {
+    text-decoration: none; /*Elimina la subrayado de los enlaces*/
+    color: white;
+}
+
+/*Aside*/
+
+aside {
+    width: 9%; /*Ancho fijo para el aside*/
+    float: left;
+    height: 100%;
+}
+
+aside img {
+    display: block; /*Asegura que las imágenes estén una debajo de la otra*/
+    margin-bottom: 20px; /*Añade espacio entre las imágenes*/
+    max-width: 100%; /*Asegura que las imágenes se ajusten al ancho del aside*/
+}
+
+/*Articulo*/
+
+main {
+    width: 90%;
+    margin-left: 10%;
+}
+
+article {/*Cambiamos el color a todo el article*/
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style:disc;/*Cambiamos los circulos por unos rellenos*/
+}
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+table {
+    border-collapse: collapse;/*Hacemos que los bordes esten juntos*/
+    margin: auto;/*Ponemos la tabla en mitad de la pantalla*/
+    margin-top: 50px;
+    text-align: center;/*Centramos los textos e imagenes*/
+}
+
+table img{
+    height: 70px;
+    width: 70px;
+}
+
+
+.texto {
+    padding: 20px; /*Aumenta el espacio alrededor del texto*/
+    color: rgb(73, 73, 73);
+    font-size: larger;
+}
+.importante{
+    font-size:x-large;/*Remarcamos palabras o frases importantes*/
+    color: rgb(214, 36, 36);
+    font-style: italic;/*Le damos mas presencia al texto*/
+}
+
+/*Pie de pagina*/
+
+footer {
+    padding-top: 20px; /*Ajusta el espacio en la parte superior del pie de página*/
+    padding-left: 10px;
+    background-color: rgb(228, 176, 142);
+}
+
+.pie{
+    height: 100%;
+    width: 300px;
+}
+
+
+
